@@ -1,41 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(27, 27, 27);
+    text-align: center;
 }
 
-header {
-  color: white;
-  
-  font-family: 'Inter', sans-serif;
-
-  width: 80%;
-  height: 100px;
-
-  margin: 100px auto 0px auto;
-
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+h1, .estimateInputs, button {
+    margin-top: 5vh;
 }
 
-main {
-  background-color: white;
-  
-  font-family: 'Inter', sans-serif;
-
-  border-radius: 5px;
-  
-  width: 80%;
-  height: auto;
-
-  margin: 0 auto;
-  padding: 30px;
-
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-main li {
-  list-style: none;
-  text-align: left;
+p {
+    margin: 5vh 25%;
 }
