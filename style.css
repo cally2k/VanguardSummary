@@ -12,6 +12,10 @@ h1, .estimateInputs, button {
     margin-top: 5vh;
 }
 
+div {
+    margin-top: 0.6vh;
+}
+
 p {
     margin: 5vh 25%;
 }

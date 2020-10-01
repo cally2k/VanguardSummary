@@ -9,13 +9,20 @@
 <body>
     <h1>Investment Estimate Calculator</h1>
     <div class="estimateInputs">
-        <input id="moneyStart" type="text" placeholder="money start amount">
-        <input id="returnEst" type="text" placeholder="return estimate">
-        <input id="years" type="text" placeholder="number of years">
+        <div>
+            <input id="moneyStart" type="number" step=any placeholder="money start amount">
+            <input id="returnEst" type="number" step=any placeholder="return estimate">
+            <input id="years" type="number" step=any placeholder="number of years">
+        </div>
+        <div>
+            <input id="accFee" type="number" step=any placeholder="acccount fee">
+            <input id="fmFee" type="number" step=any placeholder="fund management fee">
+            <input id="OCF" type="number" step=any placeholder="OCF">
+        </div>
     </div>
     <button id="button">Calculate</button>
     <p id="estimateResult"></p>
 
-    <script src="script.js"></script>
+    <script src="calc.js"></script>
 </body>
 </html>
